@@ -10,17 +10,40 @@ import Home from '../pages/Home';
 import Contact from '../pages/Contact';
 import Portfolio from '../pages/Portfolio';
 
+// I had to create an inline style as my changes to PortfolioContainer.css for .card were not working
+const cardHomeContact = {
+    width: '700px'
+};
+
+const cardPortfolio = {
+    width: '742px'
+};
+
 function PortfolioContainer() {
     return (
         <Router>
                 <NavTabs/>
-                    <Route exact path='/' component={Home}/>
-                    <Route exact path='/contact' component={Contact}/>
-                    <Route exact path='/portfolio' component={Portfolio}/>
-                <Footer/>
+                <section className="container" id="sectionBody">
+                <div className="row">
+                {<Route exact path='/' component={Home}/> ? 
+                    <div className="card" style={cardHomeContact}>
+                        <div className="card-body">
+                            <Route exact path='/' component={Home}/>
+                        </div>
+                    </div>
+                    :
+                    <div className="card" style={cardPortfolio}>
+                    <div className="card-body">
+                        <Route exact path='/contact' component={Contact}/>
+                        <Route exact path='/portfolio' component={Portfolio}/>
+                    </div>
+                </div>}   
+                </div>
+                </section>
+                <Footer/>               
         </Router>  
     );
   
-}
+};
 
 export default PortfolioContainer;

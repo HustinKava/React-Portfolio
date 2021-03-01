@@ -1,8 +1,29 @@
 import React from 'react';
+import './Contact.css';
 
 function Contact() {
     return(
-        <p>contact test</p>
+        <div>
+            <h1>Contact</h1>
+            <form>
+                <div className="form-group">
+                    <label className="form-text" for="Name">Name</label>
+                    <input type="name" className="form-control" id="Name" placeholder="Name" required="required"/>
+                </div>
+
+                <div className="form-group">
+                    <label className="form-text" for="Email">Email</label>
+                    <input type="email" className="form-control" id="Email" placeholder="Email" aria-describedby="emailHelp" required="required"/>
+                </div>
+
+                <div className="form-group">
+                            <label className="form-text" for="Message">Message</label>
+                            <textarea className="form-control" id="Message" placeholder="Message" rows="3" required="required"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary" id="submitButton">Submit</button>                
+            </form>
+
+        </div>
     )
 };
 
