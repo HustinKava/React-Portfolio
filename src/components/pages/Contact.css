@@ -1,0 +1,24 @@
+/* Contact Page Styling */
+
+.form-group {
+    width: 80%;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.form-text {
+    color: #fff;
+}
+
+#submitButton {
+    background-color: #437FC7;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-weight: 600;
+    font-size: 20px;
+}
