@@ -1,8 +1,14 @@
 import React from 'react';
 import './Contact.css';
 
+const Style = {
+    width: '700px'
+};
+
 function Contact() {
     return(
+        <div className="card" style={Style}>
+        <div className="card-body">
         <div>
             <h1>Contact</h1>
             <form>
@@ -23,6 +29,8 @@ function Contact() {
                 <button type="submit" className="btn btn-primary" id="submitButton">Submit</button>                
             </form>
 
+        </div>
+        </div>
         </div>
     )
 };

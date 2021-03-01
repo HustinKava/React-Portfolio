@@ -3,10 +3,15 @@ import Image from './Images/ProfilePic.jpg';
 import Resume from './Resume/Resume.pdf';
 import './Home.css';
 
+const Style = {
+    width: '700px'
+};
+
 function Home() {
     return(
 
-        <div>
+        <div className="card" style={Style}>
+        <div className="card-body">
           <h1>About Me</h1>  
           <div className="row">
           <article className="col-md-12" id="indexBodyContent">
@@ -38,6 +43,7 @@ function Home() {
 
           </article>
           </div>
+        </div>
         </div>
     )
 };
