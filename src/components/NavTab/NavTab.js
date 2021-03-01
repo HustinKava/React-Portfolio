@@ -22,7 +22,7 @@ return (
 
                         <Link
                         to='/contact'
-                        className={Window.location.pathname === '/contact' ? 'nav-link active' : "nav-link"}>
+                        className={window.location.pathname === '/contact' ? 'nav-link active' : "nav-link"}>
                         Contact
                         </Link>
 
@@ -31,7 +31,7 @@ return (
 
                         <Link
                         to='/portfolio'
-                        className={Window.location.pathname === '/portfolio' ? 'nav-link active' : "nav-link"}>
+                        className={window.location.pathname === '/portfolio' ? 'nav-link active' : "nav-link"}>
                         Portfolio
                         </Link>
 
