@@ -1,0 +1,22 @@
+/* Footer Styling */
+
+#footerSection {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #437FC7;
+    border-top: 8px solid #6DAFFE;
+}
+
+.socialMedia {
+    font-size: 50px;
+}
+
+.fa-github {
+    color:#fff;
+}
+
+.fa-linkedin-square{
+    color:#fff;
+}

@@ -1,0 +1,51 @@
+/* Global Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    /* This code stops the page from moving when clicking on a new link */
+}
+
+.active a {
+    color: #fff;
+}
+
+body {
+    background-color: #d1dbe6;
+}
+
+.card-body {
+    background-color: #6DAFFE;
+    border-radius: 5px;
+    border-color: 1px solid #fff;
+}
+
+h1 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    border-bottom: 3px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sectionBody {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        justify-content: center;
+        display: flex;
+    }
+}
