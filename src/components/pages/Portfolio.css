@@ -12,6 +12,23 @@
     background-color: #EDF6FF;
 }
 
+/* Extra small devices (Tested with Iphone X) */
+@media (min-width: 375px) { .portfolioImg { width: 340px; height: 300px;} }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .portfolioImg { width: 500px; height: 350px;} }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { .portfolioImg { width: 650px; height: 400px; } }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .portfolioImg { width: 800px; height: 500px; } }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .portfolioImg { width: 1000px; height: 600px; } }
+
+
+
 .portfolio-text {
     text-align: center;
     color: #fff;
