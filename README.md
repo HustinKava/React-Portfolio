@@ -24,7 +24,7 @@ Homepage
 ## View Live Website  
 Please click **[Here]()** to view the live webpage hosted on Heroku
 
-Please click **[Here]()** to view the live webpage hosted on GitHub pages
+Please click **[Here](https://hustinkava.github.io/React-Portfolio/#/)** to view the live webpage hosted on GitHub pages
 
 
 ## Questions
