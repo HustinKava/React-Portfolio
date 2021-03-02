@@ -16,7 +16,7 @@ function Home() {
           <div className="row">
           <article className="col-md-12" id="indexBodyContent">
           
-            <img className="float-left" id="profilePicture" src={Image} alt="Placeholder" height="200" width="200"/>
+            <img className="float-left" id="profilePicture" src={Image} alt="Hustin Kava" height="200" width="200"/>
           
             <p>
                 Originally born and raised in London, England, Hustin Kava moved to Alberta, Canada at the age of thirteen. Having dual citizenship has granted him the flexibility of travelling back and forth and living the best of both worlds.

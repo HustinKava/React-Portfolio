@@ -16,6 +16,9 @@ import EmpSummary from './Images/EmpSummary.PNG';
 import NoteTaker from './Images/NoteTaker.PNG';
 import EmpTracker from './Images/EmpTracker.PNG';
 import Burger from './Images/Burger.PNG';
+import Workout from './Images/Workout.PNG';
+import Budget from './Images/Budget.PNG';
+import Directory from './Images/Directory.PNG';
 
 const Style = {
     width: '1500px'
@@ -144,7 +147,34 @@ function Portfolio() {
                                         </a>
                                         <h2 className="portfolio-text">Eat Da Burger</h2>
                                         <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Eat-Da-Burger" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                    </div>                                                                                                                                                                                                                               
+                                    </div>    
+
+                                    {/* Workout Tracker */}
+                                    <div>
+                                        <a href="https://infinite-forest-17979.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Workout} alt="Workout Tracker"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Workout Tracker</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Workout-Tracker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>   
+
+                                    {/* Budget Tracker */}
+                                    <div>
+                                        <a href="https://protected-garden-52217.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Budget} alt="Budget Tracker"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Budget Tracker</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Budget-Tracker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>                                                                                                                                                                                                                                                                
+
+                                    {/* Employee Directory */}
+                                    <div>
+                                        <a href="https://rocky-temple-86306.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Directory} alt="Employee Directory"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Employee Directory</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Employee-Directory" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div> 
 
                                 </Slider>
                             </div>
