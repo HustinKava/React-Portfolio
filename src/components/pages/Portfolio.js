@@ -4,9 +4,21 @@ import React from 'react';
 // I have imported it into index.html as a cdn, otherwise I am restricted
 import Slider from 'react-slick';
 import './Portfolio.css';
+// Importing images
+import TravelPlanner from './Images/TravelPlanner.PNG';
+import Movie from './Images/Movie.PNG';
+import CodeQuiz from './Images/CodeQuiz.PNG';
+import Password from './Images/Password.PNG';
+import Weather from './Images/Weather.PNG';
+import WorkDay from './Images/WorkDay.PNG';
+import ReadMe from './Images/ReadMe.PNG';
+import EmpSummary from './Images/EmpSummary.PNG';
+import NoteTaker from './Images/NoteTaker.PNG';
+import EmpTracker from './Images/EmpTracker.PNG';
+import Burger from './Images/Burger.PNG';
 
 const Style = {
-    width: '742px'
+    width: '1500px'
 };
 
 // Settings for the carousel
@@ -17,7 +29,6 @@ const Settings = {
     autoplaySpeed: 2500,
     dots: true,
     focusOnSelect: true,
-    fade: true
 }
 
 function Portfolio() {
@@ -35,94 +46,105 @@ function Portfolio() {
                                 
                                 {/* Here I am implementing the carousel and the the settings object variable */}
                                 <Slider {...Settings}>
-
+                                    
+                                    {/* Travel Planner */}
                                     <div>
                                         <a href="https://stormy-springs-60842.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                            <i className="portfolioImg fa fa-plane"></i>
+                                            <img className="portfolioImg" src={TravelPlanner} alt="Travel Planner"/>
                                         </a>
                                         <h2 className="portfolio-text">Let's Go Travel Planner</h2>
-                                        <p className="repo">Click the image to view the live page or click <a classNameName="repoLink" href="https://github.com/Mcilhaggis/lets-go-travel-planner" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/Mcilhaggis/lets-go-travel-planner" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
                                     </div>
 
+                                    {/* Movie Searcher */}
                                     <div>
                                         <a href="https://uoft-group7-project-1.github.io/Group7_Project-1/" target="_blank" rel="noopener noreferrer">
-                                            <i className="portfolioImg fa fa-ticket"></i>
+                                            <img className="portfolioImg" src={Movie} alt="Movie Searcher"/>
                                         </a>
-                                        <h2 className="portfolio-text">Project 1</h2>
+                                        <h2 className="portfolio-text">Movie Searcher</h2>
                                         <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/UofT-Group7-Project-1/Group7_Project-1" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
                                     </div>
 
+                                    {/* Code Quiz */}
                                     <div>
-                                    <a href="https://hustinkava.github.io/Code-Quiz/" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-code"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Code Quiz</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Code-Quiz" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                        <a href="https://hustinkava.github.io/Code-Quiz/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={CodeQuiz} alt="Code Quiz"/>    
+                                        </a>
+                                        <h2 className="portfolio-text">Code Quiz</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Code-Quiz" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://hustinkava.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-key"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Password Generator</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Password-Generator" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Password Generator */}
+                                    <div>
+                                        <a href="https://hustinkava.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Password} alt="Password Generator"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Password Generator</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Password-Generator" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://hustinkava.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-sun-o"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Weather Dashboard</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Weather-Dashboard" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Weather Dashboard */}
+                                    <div>
+                                        <a href="https://hustinkava.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Weather} alt="Weather Dashboard"/>    
+                                        </a>
+                                        <h2 className="portfolio-text">Weather Dashboard</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Weather-Dashboard" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://hustinkava.github.io/Work-Day-Schedule/" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-check-square-o"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Work Day Schedule</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Work-Day-Schedule" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Work Day Scheduler */}
+                                    <div>
+                                        <a href="https://hustinkava.github.io/Work-Day-Schedule/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={WorkDay} alt="Work Day Scheduler"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Work Day Scheduler</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Work-Day-Schedule" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://youtu.be/VeKhEJunMI0" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-book"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Professional README Generator</h2>
-                                    <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Professional-Readme-Generator" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Readme Generator */}
+                                    <div>
+                                        <a href="https://youtu.be/VeKhEJunMI0" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={ReadMe} alt="Readme Generator"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Professional README Generator</h2>
+                                        <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Professional-Readme-Generator" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://youtu.be/mR7uePdATIk" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-users"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Template Engine - Employee Summary</h2>
-                                    <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Template-Engine-Employee-Summary" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Employee Summary */}
+                                    <div>
+                                        <a href="https://youtu.be/mR7uePdATIk" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={EmpSummary} alt="Employee Summary"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Template Engine - Employee Summary</h2>
+                                        <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Template-Engine-Employee-Summary" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://note-taker-uoft.herokuapp.com/notes" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-sticky-note"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Note Taker</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Note-Taker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Note Taker */}
+                                    <div>
+                                        <a href="https://note-taker-uoft.herokuapp.com/notes" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={NoteTaker} alt="Note Taker"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Note Taker</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Note-Taker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-database"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Employee Tracker</h2>
-                                    <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Employee-Tracker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>
+                                    {/* Employee Tracker */}
+                                    <div>
+                                        <a href="https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={EmpTracker} alt="Employee Tracker"/>    
+                                        </a>
+                                        <h2 className="portfolio-text">Employee Tracker</h2>
+                                        <p className="repo">Click the image to view the video or click <a className="repoLink" href="https://github.com/HustinKava/Employee-Tracker" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>
 
-                                <div>
-                                    <a href="https://blooming-citadel-30147.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                        <i className="portfolioImg fa fa-cutlery"></i>
-                                    </a>
-                                    <h2 className="portfolio-text">Eat Da Burger</h2>
-                                    <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Eat-Da-Burger" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
-                                </div>                                                                                                                                                                                                                               
+                                    {/* Eat Da Burger */}
+                                    <div>
+                                        <a href="https://blooming-citadel-30147.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                            <img className="portfolioImg" src={Burger} alt="Eat Da Burger"/>
+                                        </a>
+                                        <h2 className="portfolio-text">Eat Da Burger</h2>
+                                        <p className="repo">Click the image to view the live page or click <a className="repoLink" href="https://github.com/HustinKava/Eat-Da-Burger" target="_blank" rel="noopener noreferrer"><b>Here</b></a> to visit the repository</p>
+                                    </div>                                                                                                                                                                                                                               
 
                                 </Slider>
                             </div>
