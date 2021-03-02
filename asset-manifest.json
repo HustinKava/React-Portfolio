@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.74a8d287.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.63bfd6a9.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.63bfd6a9.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.92adf3bc.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.92adf3bc.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7c2ed3d7.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.7c2ed3d7.js.map",
     "static/js/2.effdcd15.chunk.js": "/React-Portfolio/static/js/2.effdcd15.chunk.js",
@@ -20,8 +20,8 @@
     "static/media/NoteTaker.cd4b92ad.PNG": "/React-Portfolio/static/media/NoteTaker.cd4b92ad.PNG",
     "static/media/Password.a7867a3a.PNG": "/React-Portfolio/static/media/Password.a7867a3a.PNG",
     "static/media/ProfilePic.6757ae7b.jpg": "/React-Portfolio/static/media/ProfilePic.6757ae7b.jpg",
-    "static/media/ReadMe.5aebbdab.PNG": "/React-Portfolio/static/media/ReadMe.5aebbdab.PNG",
-    "static/media/Resume.71879431.pdf": "/React-Portfolio/static/media/Resume.71879431.pdf",
+    "static/media/ReadMe.fdc56c2a.PNG": "/React-Portfolio/static/media/ReadMe.fdc56c2a.PNG",
+    "static/media/Resume.a9fd28ce.pdf": "/React-Portfolio/static/media/Resume.a9fd28ce.pdf",
     "static/media/TravelPlanner.791da4c9.PNG": "/React-Portfolio/static/media/TravelPlanner.791da4c9.PNG",
     "static/media/Weather.88014e8d.PNG": "/React-Portfolio/static/media/Weather.88014e8d.PNG",
     "static/media/WorkDay.629bf666.PNG": "/React-Portfolio/static/media/WorkDay.629bf666.PNG",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.7c2ed3d7.js",
     "static/js/2.effdcd15.chunk.js",
     "static/css/main.74a8d287.chunk.css",
-    "static/js/main.63bfd6a9.chunk.js"
+    "static/js/main.92adf3bc.chunk.js"
   ]
 }
